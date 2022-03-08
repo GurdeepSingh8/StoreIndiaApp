@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/add_button_bg.xml" value="0.30833333333333335" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/add_purchase.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/arrow_down.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/arrow_down_cream.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/arrow_forward.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/arrow_left.xml" value="0.30833333333333335" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/background_button.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/bg_spinner_text.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/bookmark.xml" value="0.295" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/camera.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/cat_fore.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/category_bg.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/category_foreground.xml" value="0.9" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/check_box.xml" value="0.3045" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/checkout_card.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/cream_bg.xml" value="0.225" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/cream_bg_cat.xml" value="0.22" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/cream_bg_list.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/cream_bg_list_stroke.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/cream_bg_total.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/cut_text.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/daalnew_background.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/deselected.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/empty_image.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/green_bg_round.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.30833333333333335" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/ic_baseline_check_24.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/ic_baseline_remove_24.xml" value="0.30833333333333335" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/ic_baseline_view_headline_24.xml" value="0.2" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.30833333333333335" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/image_fore.xml" value="0.315" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/item_add.xml" value="0.30833333333333335" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/item_check.xml" value="0.3020833333333333" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/line.xml" value="0.21458333333333332" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/line2.xml" value="0.19" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/list_checkout_bg.xml" value="0.30052083333333335" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/location.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/menu.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/mic.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/new_bg_for_button.xml" value="0.3020833333333333" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/newoffer.xml" value="0.295" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/old_price_fg.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/place_order.xml" value="0.2598958333333333" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/quantity_bg.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/quantity_selector.xml" value="0.30833333333333335" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/red_bg_round.xml" value="0.3085" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/searchbar_background.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/searchicon.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/selected.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/sha.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/stroke_background.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/trans_minus_1_logo.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/white_bg_round.xml" value="0.218" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/drawable/yellow_bg.xml" value="0.22" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/layout-v22/dashboard_main.xml" value="0.371875" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/layout-v23/dashboard.xml" value="0.371875" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/layout-v23/row_product.xml" value="0.33" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/layout-v26/row_product.xml" value="0.290625" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/layout/activity_main.xml" value="0.3578125" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/layout/activity_order_details.xml" value="0.33" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/layout/activity_send_otpactivity.xml" value="0.25" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/layout/activity_test_new.xml" value="0.24270833333333333" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/layout/activity_verify_otpactivity.xml" value="0.371875" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/layout/all_item_list.xml" value="0.33" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/layout/checkout_layout.xml" value="0.5" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/layout/checkout_list.xml" value="0.25" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/layout/cus_details_popup.xml" value="0.371875" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/layout/custom_toast.xml" value="0.371875" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/layout/dashboard.xml" value="0.31993299832495814" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/layout/dashboard_main.xml" value="0.296875" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/layout/header.xml" value="0.371875" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/layout/ly_toolbar.xml" value="0.33" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/layout/newg.xml" value="0.371875" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/layout/row_product.xml" value="0.25" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/layout/spinner_dropdown_text.xml" value="0.371875" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/layout/spinner_item_custom.xml" value="0.371875" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/layout/test.xml" value="0.2859375" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/menu/main_menu.xml" value="0.371875" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.371875" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2598958333333333" />
+        <entry key="..\:/Users/gurdeep singh/AndroidStudioProjects/OTPVerificationUsingFirebase/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2598958333333333" />
+        <entry key="..\:/Users/gurdeep singh/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_spinner_dropdown_item.xml" value="0.371875" />
+        <entry key="..\:/Users/gurdeep singh/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_spinner_item.xml" value="0.371875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

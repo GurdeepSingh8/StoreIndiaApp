@@ -1,0 +1,91 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.OTPVerificationUsingFirebase" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryDark">@color/green</item>
+        <item name="colorAccent">@color/green</item>
+        <item name="buttonBarStyle">@color/green</item>
+    </style>
+
+    <style name="FullScreen" parent="Theme.OTPVerificationUsingFirebase">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="CategoryButton1">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_row">0</item>
+        <item name="android:contentDescription">@string/category_image</item>
+        <item name="android:layout_marginTop">7dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:foreground">@drawable/category_foreground</item>
+        <item name="android:onClick">ButtonClicked</item>
+    </style>
+
+    <style name="CustomerDetails">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:contentDescription">@string/category_image</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginStart">30dp</item>
+        <item name="android:textColorHint">@color/colorTextSecondary</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:background">@null</item>
+
+    </style>
+
+    <style name="CategoryText1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:layout_row">1</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="CategoryText2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:layout_row">1</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/mustard_yellow</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CheckBox">
+        <item name="android:layout_width">12dp</item>
+        <item name="android:layout_height">12dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:background">@drawable/check_box</item>
+
+    </style>
+
+
+    <style name="OrderPlaced">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:layout_marginStart">32dp</item>
+        <item name="android:gravity">center_vertical</item>
+
+    </style>
+
+    <style name="CustomToast">
+        <item name="android:color">@color/warning</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">10dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+
+    <item name="idOil" type="id" />
+
+</resources>

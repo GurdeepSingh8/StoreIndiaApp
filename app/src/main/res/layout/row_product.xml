@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/row_parent"
+    android:layout_width="match_parent"
+    android:layout_height="125dp"
+    android:layout_marginHorizontal="8dp"
+    android:layout_marginVertical="8dp"
+    android:background="@drawable/category_bg"
+    android:elevation="8dp"
+    android:outlineAmbientShadowColor="@color/colorTextPrimary"
+    android:outlineSpotShadowColor="@color/colorTextPrimary">
+
+    <ImageView
+        android:background="@color/colorWhite"
+        android:foreground="@drawable/image_fore"
+        android:id="@+id/item_Product_Image"
+        android:layout_width="109dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="8dp"
+        android:contentDescription="@string/item_image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_marginStart="-1dp"
+        android:id="@+id/idOff"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:background="@drawable/bookmark"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toTopOf="@+id/quantity_spinner_kg"
+        app:layout_constraintStart_toEndOf="@+id/item_Product_Image"
+        app:layout_constraintTop_toBottomOf="@+id/new_price" />
+
+    <TextView
+        android:visibility="gone"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:text="Nothing"
+        android:id="@+id/testUid"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textColor="#A10000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/product_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/product_name_kg"
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/item_Product_Image"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_wrapBehaviorInParent="horizontal_only" />
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/new_price"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginStart="21dp"
+        android:text="@string/new_price"
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@id/item_Product_Image"
+        app:layout_constraintTop_toBottomOf="@+id/product_name" />
+
+    <TextView
+        android:foregroundGravity="fill_horizontal"
+        android:id="@+id/old_price"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="2dp"
+        android:text="@string/old_price"
+        android:textColor="@color/colorTextSecondary"
+        android:textSize="13sp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/new_price"
+        app:layout_constraintTop_toBottomOf="@+id/product_name" />
+
+    <Spinner
+        android:tag="Kg"
+        android:id="@+id/quantity_spinner_kg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/cream_bg"
+        android:dropDownWidth="100dp"
+        android:elevation="6dp"
+        android:gravity="center"
+        android:outlineAmbientShadowColor="@color/colorTextPrimary"
+        android:outlineSpotShadowColor="@color/colorTextPrimary"
+        android:popupBackground="@drawable/cream_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/item_Product_Image"
+        app:layout_wrapBehaviorInParent="horizontal_only" />
+
+    <Spinner
+        android:tag="Kg"
+        android:id="@+id/quantity_spinner_gms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/cream_bg"
+        android:dropDownWidth="100dp"
+        android:elevation="6dp"
+        android:gravity="center"
+        android:outlineAmbientShadowColor="@color/colorTextPrimary"
+        android:outlineSpotShadowColor="@color/colorTextPrimary"
+        android:popupBackground="@drawable/cream_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/quantity_spinner_kg" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:onClick="ItemAdded"
+        android:id="@+id/btnAddItem"
+        android:layout_width="45dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/cream_bg"
+        android:elevation="8dp"
+        android:outlineAmbientShadowColor="@color/colorTextPrimary"
+        android:outlineSpotShadowColor="@color/colorTextPrimary"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_rawRes="@raw/cart_to_empty_check" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

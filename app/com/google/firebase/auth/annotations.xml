@@ -1,0 +1,8 @@
+<root>
+    <item
+        name='com.google.firebase.auth.PhoneAuthProvider com.google.firebase.auth.PhoneAuthProvider getInstance()'>
+        <annotation name='org.jetbrains.annotations.Contract'>
+            <val val="&quot;-&gt;new&quot;" />
+        </annotation>
+    </item>
+</root>

@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">OTPVerificationUsingFirebase</string>
+    <string name="mobilenumhin">mobilenumhin</string>
+    <string name="_91">+91-</string>
+    <string name="enter_mobile_number">Enter mobile number</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="hin_image_otp">hin image otp</string>
+    <string name="enter_ot_sent_to">Enter OTP sent to</string>
+    <string name="did_t_receive_the_otp">Did\'t receive the OTP?</string>
+    <string name="resend_otp">RESEND OTP</string>
+    <string name="verify">VERIFY</string>
+    <string name="mobile_icon_for_enter_mobile_number">mobile icon for enter mobile number</string>
+    <string name="m_one_full_size_image">m one full size image</string>
+    <string name="m_one_image_square">m one image square</string>
+    <string name="minus1square_pic">minus1square pic</string>
+    <string name="home">Home</string>
+    <string name="favorites">Favorites</string>
+    <string name="saved">Saved</string>
+    <string name="dashboard_image_for_searchbar">dashboard image for searchbar</string>
+    <string name="customer_name">Enter your Full Name</string>
+    <string name="vill_xyz_tehsil_xyz">Your Village</string>
+    <string name="gmap_icon">gmap icon</string>
+    <string name="menuicon">menuicon</string>
+    <string name="search_bar_image">search bar image</string>
+    <string name="search_here">Search here</string>
+    <string name="trans_logo_minus_1">trans logo minus 1</string>
+    <string name="category_image">category image</string>
+    <string name="product_name_kg">Product Name (kg)</string>
+    <string name="market_price">Market Price = INR /kg</string>
+    <string name="minus_1_price">Minus 1 Price = INR /kg</string>
+    <string name="add">ADD</string>
+    <string name="item_image">item image</string>
+    <string name="_0">0</string>
+    <string name="gms">gms</string>
+    <string name="new_price">₹ 112/kg</string>
+    <string name="old_price">1̶2̶0̶/kg</string>
+    <string name="kg">Kg</string>
+    <string name="_100gms">100Gms</string>
+    <string name="place_order">ऑर्डर</string>
+    <string name="profile">Profile</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="empty" />
+    <string name="last_order">Last Order</string>
+    <string name="my_list">My List</string>
+    <string name="customer_service">Customer Service</string>
+    <string name="beauty_store">Beauty Store</string>
+    <string name="daal">दाल</string>
+    <string name="oil">तेल</string>
+    <string name="all">सभी देखें</string>
+    <string name="soap">सर्फ/साबुन</string>
+    <string name="cleaning">साफ-सफाई</string>
+    <string name="household">घरेलू वस्तुएँ</string>
+    <string name="flours">अनाज/आटा</string>
+    <string name="spices">मिर्च-मसाले</string>
+    <string name="beauty">ब्यूटी</string>
+    <string name="sabji">ताज़ा सब्जियाँ</string>
+    <string name="madical">मेडिकल</string>
+    <string name="hardware">हार्डवेयर</string>
+    <string name="electric">इलेक्ट्रॉनिक्स</string>
+    <string name="farming">कृषि</string>
+    <string name="pet">पालतू जानवर</string>
+    <string name="other">अन्य वस्तुएँ</string>
+    <string name="coming_soon">coming soon</string>
+    <string name="spinner_title">Spinner Title</string>
+    <string name="quantity_select">मात्रा चुनें</string>
+    <string name="pehle_matra_chune">पहले मात्रा चुनें</string>
+
+    <string-array name="spinnerItemKg">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="spinnerItemGms">
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>400</item>
+        <item>500</item>
+
+    </string-array>
+
+</resources>
+

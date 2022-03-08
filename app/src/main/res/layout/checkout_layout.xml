@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Fatherch"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/relativeCh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/chCompleteCard"
+        android:layout_below="@+id/checkout_cardView"
+        android:layout_marginHorizontal="7dp"
+        android:layout_marginTop="-15dp"
+        android:background="@drawable/cream_bg_list"
+        android:elevation="8dp">
+
+        <ScrollView
+            android:id="@+id/scrollView_checkout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/cream_bg_list">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_checkout_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/cream_bg_list_stroke"
+                tools:listitem="@layout/checkout_list" />
+
+        </ScrollView>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/emptyCart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="80dp"
+            android:scaleType="fitCenter"
+            android:visibility="gone"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/empty_cart" />
+
+        <TextView
+            android:id="@+id/tvEmptyCart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/emptyCart"
+            android:gravity="center"
+            android:text="Your cart is empty"
+            android:textColor="@color/mustard_yellow"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:visibility="gone"
+            android:id="@+id/lottieAnimationView"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_centerInParent="true"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/white_bg_round"
+            android:paddingBottom="50dp"
+            android:scaleType="fitCenter"
+            app:lottie_rawRes="@raw/purchased_thanks" />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/greet1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/greet2"
+            android:layout_centerInParent="true"
+            android:text="Order Placed"
+            android:textColorHint="@color/colorTextSecondary" />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/greet2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/lottieAnimationView"
+            android:layout_centerInParent="true"
+            android:text="Thanks to shop From Store India family"
+            android:textColor="@color/colorTextPrimary"
+            android:layout_marginBottom="10dp"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/checkout_cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp"
+        android:background="@drawable/checkout_card"
+        android:elevation="8dp"
+        android:paddingBottom="15dp">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/customer_care"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="15dp"
+            android:scaleX="2.2"
+            android:scaleY="2.2"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/whtsapp_icon" />
+
+        <Button
+            android:id="@+id/EditBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignBottom="@+id/address"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toEndOf="@+id/customerName"
+            android:background="@drawable/edit" />
+
+        <EditText
+            android:id="@+id/cusNameEdit"
+            style="@style/CustomerDetails"
+            android:layout_alignParentTop="true"
+            android:hint="@string/customer_name"
+            android:textColorHint="@color/colorTextSecondary"
+            android:textSize="18sp"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/cusAddressEdit"
+            style="@style/CustomerDetails"
+            android:layout_below="@id/cusNameEdit"
+            android:hint="@string/vill_xyz_tehsil_xyz"
+            android:textColorHint="@color/colorTextSecondary"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/cusAddEdit"
+            style="@style/CustomerDetails"
+            android:layout_below="@id/cusAddressEdit"
+            android:hint="Tehsil"
+            android:textColorHint="@color/colorTextSecondary"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/submit_cus_details"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/cusNameEdit"
+            android:layout_toEndOf="@+id/cusNameEdit"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/check"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/customerName"
+            style="@style/CustomerDetails"
+            android:layout_alignParentTop="true"
+            android:hint="@string/customer_name"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/address"
+            style="@style/CustomerDetails"
+            android:layout_below="@+id/customerName"
+            android:layout_marginStart="35dp"
+            android:hint="@string/vill_xyz_tehsil_xyz" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/chCompleteCard"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/white_bg_round"
+        android:elevation="5dp">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/confirm_purchase"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="20dp"
+            android:scaleType="fitXY"
+            android:visibility="gone"
+            app:lottie_rawRes="@raw/progress_bar" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/btn_cancle"
+            android:textColor="@color/colorWhite"
+            android:textSize="12sp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/chImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/white_bg_round"
+            android:backgroundTint="@color/mustard_yellow"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/pro_count"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignStart="@id/chImage"
+            android:layout_alignBottom="@id/chImage"
+            android:layout_marginStart="20dp"
+            android:gravity="center"
+            android:text="Product"
+            android:textAlignment="center"
+            android:textColor="@color/colorTextPrimary"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pro_total_price"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@id/chImage"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@id/pro_count"
+            android:gravity="center"
+            android:text="Total_Amount"
+            android:textAlignment="center"
+            android:textColor="@color/colorTextPrimary"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

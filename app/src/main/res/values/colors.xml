@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4C8767</color>
+    <color name="colorAccent">#4C8767</color>
+    <color name="colorPrimaryDark">#4C8767</color>
+    <color name="colorSecondaryDark">#CDE48F</color>
+    <color name="colorCreamBackground">#F5F3E7</color>
+    <color name="addPurchase">#468A67</color>
+    <color name="colorTextPrimary">#212121</color>
+    <color name="colorTextSecondary">#757575</color>
+    <color name="colorDivider">#BDBDBD</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="backgroundColor">#4C8767</color>
+    <color name="buttonBackColor">#4C8767</color>
+    <color name="bottom_bar_indicator_color">#D4F5FA</color>
+    <color name="bottom_bar_icon_tint">#CFD0E2</color>
+    <color name="bottom_bar_icon_tint_active">#35B7CF</color>
+    <color name="bottom_bar_text_color">#35B7CF</color>
+    <color name="background">#FFFFFF</color>
+    <color name="primary_label">#212121</color>
+    <color name="secondary_label">#757575</color>
+    <color name="search_background">#F3F6FB</color>
+    <color name="favorite_background">#FF7173</color>
+    <color name="green">#0c831f</color>
+    <color name="transparent">#00000000</color>
+    <color name="customerNameColor">#C10044</color>
+    <color name="priceGreen">#005101</color>
+    <color name="addButtonBg">#003459</color>
+    <color name="color_old_price">#A50000</color>
+    <color name="color_new_price">#008A02</color>
+    <color name="warning">#D89614</color>
+    <color name="mustard_yellow">#ffe141</color>
+</resources>
